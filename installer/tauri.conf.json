@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "index.html",
+    "distDir": "."
+  },
+  "package": {
+    "productName": "DEEP_LEARNING_FOR_BCI",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "gg.anticloud.deep_learning_for_bci",
+      "category": "DeveloperTool",
+      "shortDescription": "DEEP_LEARNING_FOR_BCI \u2014 Anticloud Sovereign AI Infrastructure",
+      "longDescription": "Installer for DEEP_LEARNING_FOR_BCI, part of the Anticloud sovereign AI infrastructure stack"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "DEEP_LEARNING_FOR_BCI Installer",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}
